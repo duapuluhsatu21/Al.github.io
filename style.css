@@ -13,5 +13,13 @@
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: var(--bg);
-    color: rgb(255, 51, 51);
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    
 }
