@@ -64,26 +64,16 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../img/profilbaru.jpg');
     background-repeat: no-repeat;
 
     
         /* Container utama */
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-            max-width: 90%;
-        }
-        .h1 {
+        h1 {
         text-align: left;
         font-size: 1.5em;
         margin-right: 20px;
         margin-bottom: 0;
         }
-        /* Style untuk teks */
         
 
         /* Style untuk lingkaran */
