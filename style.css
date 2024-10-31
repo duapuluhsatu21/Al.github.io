@@ -57,13 +57,17 @@ body {
 #hamburger-menu {
     display: none;
 }
-.container-img {
-    display: flex;
-    justify-content: flex-end
+
+/* media laptop  */
+@media (max-width: 1366px) {
+ html{
+    font-size: 75%;
 }
-.isi-img {
-    width: 50%;
-    max-width: 300px;
-    border-radius: 50%;
-    object-fit:cover;
+}
+
+/* media hp */
+@media max-width(:1366px) {
+    html{
+    font-size: 55%
+    }
 }
