@@ -2,7 +2,7 @@
     --primary: grey;
     --bg: #010101
 }
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,17 +10,17 @@
     border: none;
     text-decoration: none;
 }
-body{
+body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: var(--bg);
     color: rgb(247, 35, 35);
 }
 
 .navbar {
+    border-bottom: 1px solid rgb(141, 142, 142);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 7%;
-    background: rgba(1, 1, 1; 0.8);
-    border-bottom: 1px solid var(--primary);
+    background-color: rgb(255, 255, 255); 
 }
