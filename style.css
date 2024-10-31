@@ -83,13 +83,14 @@ body {
         font-size: 1.2em;
         font-weight: bold;
         margin-bottom: 20px;
+        color: white;
+        bottom: 5rem;
         }
 
         /* Style untuk lingkaran */
         .circle {
             width: 150px;
             height: 150px;
-            background-image: url('../img/profilbaru.jpg');
             background-size: cover;
             background-position: center;
             border-radius: 50%;
