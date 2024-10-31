@@ -17,7 +17,7 @@ body {
 }
 
 .navbarr {
-    border-bottom: 1px solid rgb(106, 20, 20);
+    border-bottom: 1px solid rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
