@@ -61,7 +61,7 @@ body {
     display: flex;
     justify-content: flex-end
 }
-.responsive-image {
+.isi-img {
     width: 50%;
     max-width: 300px;
     border-radius: 50%;
