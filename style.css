@@ -1,156 +1,17 @@
+:root{
+    --primary: grey;
+    --bg: #010101
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.home-ul{font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
-    display: flex;
-    gap: 60px;
-}
-.back{
-    color: white;
-}
-
-nav{
-    background-color: black;
-    padding: 15px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
-nav ul li a{
-    display: inline-block;
-    padding: 5px 10px;
-    margin: 5px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: #0d0046;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
+    outline: none;
     border: none;
-    cursor: pointer;
+    text-decoration: none;
 }
-
-.cointainer-img{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.isi-img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-header{
-    position: absolute;
-    top: 30%;
-    left: 5%;
-    padding: 40px;
-    z-index: 10;
-    font-family: fantasy;
-    font-style: normal;
-    font-size: 120px;
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--bg);
     color: white;
-}
-.header2{
-    position: absolute;
-    top: 125%;
-    right: 5%;
-    padding: 40px;
-    z-index: 10;
-    font-family: fantasy;
-    font-style: normal;
-    font-size: 70px;
-    text-align: right;
-    color: white;
-}
-.cointainer-img2{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: fantasy;
-    font-style: normal;
-}
-
-.isi-img2{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.cointainer-img3{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.isi-img3{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.peta{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 5px solid #d6c1c1;
-}
-.peta-1{
-    position: absolute;
-    top: 283%;
-    right: 50%;
-}
-.konten6{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.isi6{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-}
-h3{position: absolute;
-    top: 380%;
-    padding: 40px;
-    z-index: 10;
-    font-family: fantasy;
-    font-style: normal;
-    font-size: 120px;
-    color: white;
-}
-@media only screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .menu-item {
-        font-size: 16px;
-        padding: 5px;
-    }
-
-    h1 {
-        font-size: 24px;
-        text-align: center;
-    }
 }
