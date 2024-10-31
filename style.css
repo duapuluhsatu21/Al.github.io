@@ -64,19 +64,13 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../img/satubaru.jpg');
+    background-image: url('../img/profilbaru.jpg');
     background-repeat: no-repeat;
 
 /* media laptop  */
-@media (max-width: 1366px) {
+@media (max-width: 450px) {
  html{
-    font-size: 75%;
+    font-size: 55%;
 }
 }
 
-/* media hp */
-@media (max-width: 1366px){
-    html{
-    font-size: 75%;
- }
-}
