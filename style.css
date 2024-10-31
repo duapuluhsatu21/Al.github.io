@@ -67,8 +67,8 @@ body {
 }
 
 /* media hp */
-@media max-width(:1366px) {
+@media (max-width: 1366px){
     html{
-    font-size: 55%
-    }
+    font-size: 75%;
+ }
 }
