@@ -29,4 +29,13 @@ body {
     right: 0;
     z-index: 9999;
 }
+.navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: gray;
+}
+.navbar .navbar-logo span {
+    color: color: var(--primary);
+    
+}
 
