@@ -79,9 +79,10 @@ body {
         }
 
         /* Style untuk teks */
-        h1{font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 20px;
+        h1 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 20px;
         }
 
         /* Style untuk lingkaran */
