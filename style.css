@@ -60,7 +60,7 @@ body {
 }
 
 /* hero */
-.hero{
+    .hero{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -77,15 +77,14 @@ body {
             padding: 20px;
             max-width: 90%;
         }
-
-        /* Style untuk teks */
-        h1 {
-        font-size: 1.2em;
-        font-weight: bold;
-        margin-bottom: 20px;
-        color: white;
-        bottom: 5rem;
+        .h1 {
+        text-align: left;
+        font-size: 1.5em;
+        margin-right: 20px;
+        margin-bottom: 0;
         }
+        /* Style untuk teks */
+        
 
         /* Style untuk lingkaran */
         .circle {
@@ -103,15 +102,4 @@ body {
                 flex-direction: row;
                 max-width: 80%;
             }
-
-            .text {
-                text-align: left;
-                font-size: 1.5em;
-                margin-right: 20px;
-                margin-bottom: 0;
-            }
-
-            .circle {
-                margin-top: 0;
             }
-         }
