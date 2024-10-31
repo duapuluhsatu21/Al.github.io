@@ -16,7 +16,7 @@ body {
     background-color: var(--bg);
 }
 
-.navbar {
+.navbarr {
     border-bottom: 1px solid rgb(106, 20, 20);
     display: flex;
     justify-content: space-between;
@@ -29,11 +29,13 @@ body {
     right: 0;
     z-index: 9999;
 }
+
 .navbar .navbar-logo {
     font-size: 2rem;
     font-weight: 700;
     color: gray;
     font-style: italic;
+
 .navbar .navbar-logo span {
     color: color: var(--primary);
 }
@@ -47,6 +49,12 @@ body {
 
 .navbar .navbar-nav a:hover {
     color: var(--primary);
+}
+
+.navbar .navbar-extra a {
+    color: #fff
+    margin: 0 0.5rem;
+
 }
 
 
