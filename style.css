@@ -59,6 +59,14 @@ body {
     display: none;
 }
 
+/* hero */
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(satubaru.jpg);
+    background-repeat: no-repeat;
+
 /* media laptop  */
 @media (max-width: 1366px) {
  html{
