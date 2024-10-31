@@ -1,5 +1,5 @@
 :root{
-    --primary: rgb(115, 113, 113);
+    --primary: rgb(60, 60, 60);
     --bg: #010101
 }
 * {
@@ -38,7 +38,7 @@ body {
     font-style: italic;
 
 .navbar .navbar-nav a {
-    color: white;
+    color: rgb(140, 139, 139);
     display: inline-block;
     font-size: 1,4rem;
     margin: 0 1rem;
