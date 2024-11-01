@@ -13,7 +13,7 @@ body{
     text-align: center;
     color: black;
 }
-.container h1{
+.container-h1{
     font-size: 160px;
     margin: 0;
     font-weight: 900;
@@ -32,4 +32,12 @@ body{
 }
 .container a:hover{
     background: grey;
+}
+.gif{
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
 }
