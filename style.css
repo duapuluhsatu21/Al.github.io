@@ -1,95 +1,14 @@
-:root{
-    --primary: rgb(115, 113, 113);
-    --bg: #010101
-}
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-}
-body {
-    color: rgb(247, 35, 35);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: var(--bg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.navbar {
-    border-bottom: 1px solid rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.4rem 7%;
-    background-color: rgb(255, 255, 255); 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    margin-right: 0;
+body{
+    height: 100vh;
+    background-color: #000;
+    background-image:url('https://unsplash.com/photos/a-tall-building-with-a-clock-on-the-top-of-it-q3aIV8kZmj4');
+    background-size: cover;
+    background-position: center;
 }
-
-.navbar .navbar-logo {
-    font-size: 2rem;
-    font-weight: 700;
-    color: gray;
-    font-style: italic;
-
-.navbar .navbar-nav a {
-    color: white;
-    display: inline-block;
-    font-size: 1,4rem;
-    margin: 0 1rem;
-}
-
-.navbar .navbar-nav a:hover {
-    color: var(--primary);
-}
-
-.navbar .navbar-extra a {
-    color: #fff
-}
-.navbar .navbar-extra a:hover {
-    color: var(--primary);
-}
-
-#hamburger-menu {
-    display: none;
-}
-
-/* hero */
-    .hero{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-
-    
-        /* Container utama */
-    .text {
-        text-align: left;
-        font-size: 1.5em;
-        margin-right: 20px;
-        margin-bottom: 50px;
-        }
-        
-
-        /* Style untuk lingkaran */
-        .circle {
-            width: 150px;
-            height: 150px;
-            background-size: cover;
-            background-position: center;
-            border-radius: 50%;
-            margin-top: 20px;
-        }
-
-        /* Responsif untuk layar lebih besar */
-        @media (min-width: 768px) {
-            .container {
-                flex-direction: row;
-                max-width: 80%;
-            }
-            }
